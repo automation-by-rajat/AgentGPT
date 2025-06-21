@@ -50,7 +50,9 @@ Before you get started, please make sure you have the following installed:
 - [Node.js](https://nodejs.org/en/download)
 - [Git](https://git-scm.com/downloads)
 - [Docker](https://www.docker.com/products/docker-desktop). After installation, please create an account, open up the Docker application, and sign in.
-- An [OpenAI API key](https://platform.openai.com/signup)
+- An [OpenAI API key](https://platform.openai.com/signup) (or configure
+  [Ollama](https://github.com/ollama/ollama) locally and set
+  `REWORKD_PLATFORM_OPENAI_API_BASE` to `http://localhost:11434/v1`)
 - A [Serper API Key](https://serper.dev/signup) (optional)
 - A [Replicate API Token](https://replicate.com/signin) (optional)
 
